@@ -1,0 +1,191 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f2f3f5;
+  color: #1d2129;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.app {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 20px 24px 84px;
+}
+
+.panel {
+  background: #fff;
+  border-radius: 6px;
+  padding: 16px 20px;
+}
+
+.header-panel {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.header-title {
+  margin: 0 !important;
+}
+
+.header-sub {
+  display: block;
+  margin-top: 2px;
+}
+
+.header-stats {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex: none;
+}
+
+.toolbar-panel {
+  margin-top: 12px;
+}
+
+.toolbar-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.toolbar-tabs {
+  flex: 1;
+  min-width: 0;
+}
+
+.toolbar-tabs .arco-tabs-content {
+  display: none;
+}
+
+.toolbar-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: none;
+}
+
+.progress-line {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.progress-line .arco-progress {
+  flex: 1;
+}
+
+.table-panel {
+  margin-top: 12px;
+  padding: 0;
+  overflow: hidden;
+}
+
+.table-panel .arco-table-th {
+  font-weight: 500;
+}
+
+.time-cell {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.old-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 14px;
+}
+
+.cell-meta {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-top: 4px;
+}
+
+.new-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.apply-bar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 20;
+  background: #fff;
+  border-top: 1px solid #e5e6eb;
+  padding: 12px 0;
+}
+
+.apply-inner {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.apply-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.modal-p {
+  margin: 0 0 10px;
+  color: #4e5969;
+  line-height: 1.7;
+}
+
+.modal-p:last-child {
+  margin-bottom: 0;
+}
+
+.backup-text {
+  word-break: break-all;
+}
+
+.settings-row {
+  margin-bottom: 16px;
+}
+
+.settings-label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 13px;
+  color: #4e5969;
+}
+
+.settings-help {
+  margin-top: 4px;
+  font-size: 12px;
+  color: #86909c;
+  word-break: break-all;
+}
+
+.settings-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: 8px;
+}

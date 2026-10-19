@@ -1,0 +1,31 @@
+# 个人数据 / 运行产物
+backups/
+plans/
+tool.log
+config.json
+test-dbs/
+test-artifacts/
+state-test.json
+state-*.json
+token.txt
+r[0-9]*.json
+
+# 构建产物
+build/
+dist/
+release/
+*.spec
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# 前端
+web-src/node_modules/
+web-src/dist/
+
+# 数据库副本
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
